@@ -83,7 +83,11 @@ header{
 .home-img{
     flex:1 1 17rem;
 }
-.home img{
+.home img,
+.box-img,
+.delivery-pic,
+.app-pic,
+.about-pic{
     animation: animate 3s linear infinite;
 }
 @keyframes animate{
@@ -197,6 +201,12 @@ header{
 .delivery-img, 
 .app-img{
     flex: 1 1 21rem;
+   
+}
+.delivery-pic,
+.app-pic,
+.about-pic{
+    border-radius: 0.5rem;
 }
 .delivery-text, 
 .app-text{
